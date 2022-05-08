@@ -1,18 +1,17 @@
-
-import MemberManagementDashborad from "./components/MemberManagement/MemberManagementDashborad";
+import GroupManagementDashborad from "./components/GroupManagement/GroupManagementDashborad";
 import PageDescription from "./components/PageDescription";
 
-const MemberManagement = () => {
+const GroupManagement = () => {
     return (
         <div className="gnb-container">
         <div className="main-dashborad">
-          <MemberManagementDashborad/>
+        <GroupManagementDashborad/>
         </div>
         <div className="page-description">
           <PageDescription />
         </div>
-      </div>                                                      
+      </div>
     );
 };
 
-export default MemberManagement;
+export default GroupManagement;

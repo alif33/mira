@@ -1,18 +1,17 @@
-
-import MemberManagementDashborad from "./components/MemberManagement/MemberManagementDashborad";
+import GroupRegistrationDashborad from "./components/GroupRegistration/GroupRegistrationDashborad";
 import PageDescription from "./components/PageDescription";
 
-const MemberManagement = () => {
+const GroupRegistration = () => {
     return (
         <div className="gnb-container">
         <div className="main-dashborad">
-          <MemberManagementDashborad/>
+            <GroupRegistrationDashborad/>
         </div>
         <div className="page-description">
           <PageDescription />
         </div>
-      </div>                                                      
+      </div>
     );
 };
 
-export default MemberManagement;
+export default GroupRegistration;
