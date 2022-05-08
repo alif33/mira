@@ -1,6 +1,6 @@
 const Table = () => {
   return (
-    <div className="table">
+    <div className="table-main">
       <table>
         <thead>
           <tr>
