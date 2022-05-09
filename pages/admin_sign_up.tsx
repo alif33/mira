@@ -1,5 +1,5 @@
 import AdminSignUp from "../src/AdminSignUp";
-import Navbar from "../src/components/Navbar";
+import Navbar from "../src/components/navbar/Navbar";
 
 const admin_sign_up = () => {
     return (

@@ -1,5 +1,5 @@
 import GroupRegistrationDashborad from "./components/GroupRegistration/GroupRegistrationDashborad";
-import PageDescription from "./components/PageDescription";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const GroupRegistration = () => {
     return (

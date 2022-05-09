@@ -1,5 +1,5 @@
-import AdminSignUpForm from "./components/AdminSignUpForm";
-import PageDescription from "./components/PageDescription";
+import AdminSignUpForm from "./components/adminSignUpForm/AdminSignUpForm";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const AdminSignUp = () => {
     return (

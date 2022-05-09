@@ -1,5 +1,5 @@
 import MemberRegistrationMainDashborad from "./components/MemberRegistration/MemberRegistrationMainDashborad";
-import PageDescription from "./components/PageDescription";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const MemberRegistration = () => {
     return (

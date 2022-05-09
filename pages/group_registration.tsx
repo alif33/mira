@@ -1,4 +1,4 @@
-import Navbar from "../src/components/Navbar";
+import Navbar from "../src/components/navbar/Navbar";
 import GroupRegistration from "../src/GroupRegistration";
 
 const group_registration = () => {

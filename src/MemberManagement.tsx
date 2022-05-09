@@ -1,6 +1,6 @@
 
 import MemberManagementDashborad from "./components/MemberManagement/MemberManagementDashborad";
-import PageDescription from "./components/PageDescription";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const MemberManagement = () => {
     return (

@@ -1,5 +1,5 @@
 import GroupManagementDashborad from "./components/GroupManagement/GroupManagementDashborad";
-import PageDescription from "./components/PageDescription";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const GroupManagement = () => {
     return (

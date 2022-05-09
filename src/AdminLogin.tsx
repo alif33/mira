@@ -1,5 +1,5 @@
-import Login from "./components/Login";
-import PageDescription from "./components/PageDescription";
+import Login from "./components/login/Login";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const AdminLogin = () => {
     return (

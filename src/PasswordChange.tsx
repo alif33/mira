@@ -1,6 +1,6 @@
 import React from 'react';
-import PageDescription from './components/PageDescription';
-import PasswrdChangeForm from './components/PasswrdChangeForm';
+import PageDescription from './components/pageDescriptionSidebar/PageDescription';
+import PasswrdChangeForm from './components/passwordChangeForm/PasswrdChangeForm';
 
 const PasswordChange = () => {
     return (

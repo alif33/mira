@@ -1,5 +1,5 @@
 import Dashborad from "./components/Dashboard/Dashborad";
-import PageDescription from "./components/PageDescription";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
 
 const MainPage = () => {
     return (

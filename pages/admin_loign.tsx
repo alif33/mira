@@ -1,5 +1,5 @@
 import AdminLogin from "../src/AdminLogin";
-import Navbar from "../src/components/Navbar";
+import Navbar from "../src/components/navbar/Navbar";
 
 
 const admin_loign = () => {

@@ -222,7 +222,7 @@ th {
                 color: #260c8f;
                 font-size: 12px;
                 height: 100%;
-                padding: 4px;
+                padding: 4px 35px;
                 box-sizing: border-box;
                 background: transparent;
                 width: 85%;
@@ -230,6 +230,13 @@ th {
                   outline: none;
                 }
               }
+            }
+          }
+          p {
+            font-size: 14px;
+            font-weight: 700 !important;
+            span {
+              color: #260c8f;
             }
           }
         }
@@ -591,16 +598,16 @@ svg.recharts-surface {
       position: relative;
       label {
         display: inline-block;
-    background: #260c8f24;
-    color: #260c8f;
-    font-size: 14px;
-    height: 100%;
-    padding: 12px;
-    box-sizing: border-box;
-    width: 30%;
-    font-weight: 700;
+        background: #260c8f24;
+        color: #260c8f;
+        font-size: 14px;
+        height: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        width: 30%;
+        font-weight: 700;
       }
-      span{
+      span {
         color: red;
       }
       .form-input {
@@ -613,7 +620,7 @@ svg.recharts-surface {
 
         display: flex;
         align-items: center;
-        span{
+        span {
           margin-left: 10px;
         }
         button {
@@ -647,7 +654,6 @@ svg.recharts-surface {
             outline: none;
           }
         }
-
       }
     }
   }
@@ -676,11 +682,11 @@ svg.recharts-surface {
   }
 }
 
-.form-btn{
+.form-btn {
   text-align: center;
-button{
-  width: auto;
-  padding: 0 10px;
-  margin: 10px;
-}
+  button {
+    width: auto;
+    padding: 0 10px;
+    margin: 10px;
+  }
 }

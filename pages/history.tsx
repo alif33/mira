@@ -1,5 +1,5 @@
-import Navbar from "../src/components/Navbar";
-import Table from "../src/components/Table";
+import Navbar from "../src/components/navbar/Navbar";
+import Table from "../src/components/table/Table";
 
 const History = () => {
     return (

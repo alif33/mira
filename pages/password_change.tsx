@@ -1,4 +1,4 @@
-import Navbar from "../src/components/Navbar";
+import Navbar from "../src/components/navbar/Navbar";
 import PasswordChange from "../src/PasswordChange";
 
 const password_change = () => {

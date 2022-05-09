@@ -1,6 +1,6 @@
 import React from 'react';
 import MemberDetailsMainDashborad from './components/MemberDetails/MemberDetailsMainDashborad';
-import PageDescription from './components/PageDescription';
+import PageDescription from './components/pageDescriptionSidebar/PageDescription';
 
 const MemberDetails = () => {
     return (

@@ -1,4 +1,4 @@
-import Navbar from "../src/components/Navbar";
+import Navbar from "../src/components/navbar/Navbar";
 import MainPage from "../src/MainPage";
 
 const admin_page_main = () => {

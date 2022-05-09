@@ -17,8 +17,8 @@ const FindId = (props: popupProps) => {
           <input type="text" placeholder="이메일을 입력해주세요" />
         </div>
       </form>
-      <button className="main-btn">아이디 찾기</button>
-      <button className="ouline-btn">비밀번호 찾기</button>
+      <button className="main-btn btn-margin-top">아이디 찾기</button>
+      <button className="ouline-btn btn-margin-top">비밀번호 찾기</button>
       <button
         className="transparent-btn"
         onClick={() => props.setPopupShow(!props.popupShow)}

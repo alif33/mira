@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../src/components/Navbar';
+import Navbar from '../src/components/navbar/Navbar';
 import GroupDetails from '../src/GroupDetails';
 
 const group_details = () => {

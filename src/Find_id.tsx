@@ -1,8 +1,10 @@
 import { useState } from "react";
-import FindId from "./components/FindId";
-import Login from "./components/Login";
-import PageDescription from "./components/PageDescription";
-import Popup from "./components/Popup";
+import FindId from "./components/findid/FindId";
+import Login from "./components/login/Login";
+import PageDescription from "./components/pageDescriptionSidebar/PageDescription";
+import EmailSendPopup from "./components/popup/EmailSendPopup";
+import GroupInquiryPopup from "./components/popup/GroupInquiryPopup";
+import Popup from "./components/popup/Popup";
 
 interface popupProps {
   popupShow: boolean;
@@ -16,9 +18,13 @@ const GNB = () => {
       <div className="admin-login-section">
         <img src="img/logo2.png" alt="" />
         <FindId popupShow={popupShow} setPopupShow={setPopupShow} />
-        {popupShow && (
+        
+        {/* {popupShow && (
           <Popup popupShow={popupShow} setPopupShow={setPopupShow} />
-        )}
+        )} */}
+        {/* <EmailSendPopup popupShow={popupShow} setPopupShow={setPopupShow}/> */}
+
+        <GroupInquiryPopup popupShow={popupShow} setPopupShow={setPopupShow} />
       </div>
       <div className="page-description">
         <PageDescription />
